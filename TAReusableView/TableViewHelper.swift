@@ -6,7 +6,7 @@
 //  Copyright © 2016 Tailored Media GmbH. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 extension UITableViewCell: ReusableView { }
 

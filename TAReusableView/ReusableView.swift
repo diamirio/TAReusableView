@@ -6,7 +6,7 @@
 //  Copyright © 2016 MarioHahn. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 public protocol ReusableView: class {
     static var defaultReuseIdentifier: String { get }
