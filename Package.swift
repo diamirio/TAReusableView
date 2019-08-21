@@ -15,7 +15,9 @@ let package = Package(
         ),
         .testTarget(
             name: "TAReusableViewTests",
-            dependencies: []
+            dependencies: [
+                "TAReusableView"
+            ]
         )
     ]
 )
