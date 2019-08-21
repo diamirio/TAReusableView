@@ -13,13 +13,8 @@ let package = Package(
     targets: [
         .target(
             name: "TAReusableView",
-            dependencies: []
-        ),
-        .testTarget(
-            name: "TAReusableViewTests",
-            dependencies: [
-                "TAReusableView"
-            ]
+            dependencies: [],
+            path: "TAReusableView"
         )
     ]
 )
